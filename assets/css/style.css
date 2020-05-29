@@ -19,7 +19,7 @@ main {
 
 .grid-my {
   display: grid;
-  grid-template-columns: 4fr 6fr 3fr;
+  grid-template-columns: 3fr 6fr 4fr;
   margin-bottom: 10px;
 }
 .box-1 {
@@ -30,6 +30,9 @@ main {
 .box-4,
 .box-5 {
   grid-column: 2/3;
+}
+.box-3 {
+  grid-row: 1/3;
 }
 .box-6,
 .box-3 {
@@ -46,6 +49,21 @@ main {
 }
 .my-underline:hover {
   border-bottom: 1px solid red;
+}
+.my-link-style:hover {
+  color: red;
+}
+.vs {
+  left: 48%;
+  z-index: 2;
+  transform: translateY(-50%);
+}
+/* the border in  the debate section */
+.border-red {
+  border-top: 4px solid red;
+}
+.border-blue {
+  border-bottom: 4px solid blue;
 }
 @media screen and (max-width: 992px) {
   .grid-my {
