@@ -1,0 +1,91 @@
+@import "./reset.css";
+
+.nav-icon {
+  color: rgba(233, 109, 109, 0.856);
+  font-size: 28px;
+}
+.blue,
+.red {
+  width: 100%;
+  min-height: 100%;
+
+  background-color: red;
+  border: 1px solid gray;
+}
+.blue {
+  background-color: blue;
+}
+.container {
+  margin-top: 70px;
+}
+
+.grid-my {
+  display: grid;
+  grid-template-columns: 4fr 6fr 3fr;
+  margin-bottom: 10px;
+}
+.box-1 {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+.box-2,
+.box-4,
+.box-5 {
+  grid-column: 2/3;
+}
+.box-6,
+.box-3 {
+  grid-column: 3/4;
+}
+.be-fo div,
+.sidelist div {
+  height: 66px;
+  min-height: 33%;
+}
+.my-position {
+  left: 0;
+  bottom: 0;
+}
+@media screen and (max-width: 960px) {
+  .grid-my {
+    grid-template-columns: 5fr 7fr;
+  }
+  .box-6,
+  .box-3 {
+    grid-column: 1/3;
+  }
+  .box-3 {
+    grid-row: 4/5;
+  }
+}
+@media screen and (max-width: 540px) {
+  .grid-my {
+    grid-template-columns: 1fr;
+  }
+  .box-1,
+  .box-2,
+  .box-3,
+  .box-4,
+  .box-5,
+  .box-6 {
+    grid-column: 1;
+  }
+  .box-2 {
+    grid-row: 1/2;
+  }
+  .box-1 {
+    grid-row: 2/3;
+  }
+  .box-3 {
+    grid-row: 3/4;
+  }
+  .box-5 {
+    grid-row: 4/5;
+  }
+  .box-4 {
+    grid-row: 5/6;
+  }
+  .box-6 {
+    grid-row: 6/7;
+  }
+}
