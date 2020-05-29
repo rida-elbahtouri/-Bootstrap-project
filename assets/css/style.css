@@ -56,7 +56,7 @@ main {
 .vs {
   left: 48%;
   z-index: 2;
-  transform: translateY(-50%);
+  transform: translateY(-40%);
 }
 /* the border in  the debate section */
 .border-red {
@@ -64,6 +64,12 @@ main {
 }
 .border-blue {
   border-bottom: 4px solid blue;
+}
+.box-6 form {
+  max-width: 300px;
+}
+.title {
+  width: 220px;
 }
 @media screen and (max-width: 992px) {
   .grid-my {
