@@ -16,7 +16,9 @@
 main {
   margin-top: 70px;
 }
-
+h5 {
+  color: black;
+}
 .grid-my {
   display: grid;
   grid-template-columns: 3fr 6fr 4fr;
@@ -38,11 +40,7 @@ main {
 .box-3 {
   grid-column: 3/4;
 }
-.be-fo div,
-.sidelist div {
-  height: 66px;
-  min-height: 33%;
-}
+
 .my-position {
   left: 0;
   bottom: -1rem;
