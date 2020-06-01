@@ -6,9 +6,9 @@ Project: Using Bootstrap
 
 this is a clone of the Newsweek website built base on Bootstrap
 
-##screanshoot of the website
+##Screenshot of the website
 
-![screanshoot](https://github.com/rida-elbahtouri/Building-with-Backgrounds-and-Gradients/tree/features-branch/assets/img/Screenshot.png)
+![Screenshot](assets/img/Screenshot.png)
 
 ## Built With
 
