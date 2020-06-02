@@ -9,8 +9,20 @@
   fill: white;
 }
 
-main {
+.subnv {
   margin-top: 70px;
+}
+
+.subnv ul li a {
+  font-size: 19px;
+}
+
+.subnv ul li {
+  padding: 0 0.5%;
+}
+
+.subnv ul li input {
+  width: 50px;
 }
 
 h5 {
