@@ -18,7 +18,7 @@ this is a clone of the Newsweek website built base on Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/rida-elbahtouri/-Bootstrap-project/86797a287a47ed33b08b2bdf224ea1f931e1331b/index.html)
+[Live Demo Link](https://rawcdn.githack.com/rida-elbahtouri/-Bootstrap-project/42cf4760f637414b5c5b16fa0bd01b8a2bf77ee9/index.html)
 
 # Getting Started 🚀
 
