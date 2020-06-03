@@ -168,6 +168,10 @@ h5 {
   }
 }
 
+.images-div {
+  height: 200px;
+}
+
 @media screen and (max-width: 768px) {
   .grid-my {
     grid-template-columns: 1fr;
@@ -221,7 +225,7 @@ h5 {
 
   .be-fo {
     text-align: center;
-    min-height: 400px;
+    min-height: 430px;
   }
 
   .formm {
